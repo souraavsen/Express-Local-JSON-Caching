@@ -1,0 +1,6 @@
+{
+  "port": 5500,
+  "cacheDir": "./cache",
+  "defaultTTL": 3600,
+  "cleanupInterval": 60000
+}
