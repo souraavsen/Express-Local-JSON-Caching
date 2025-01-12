@@ -1,5 +1,5 @@
 {
-  "name": "express-filebased-caching",
+  "name": "express-local-json-caching",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
