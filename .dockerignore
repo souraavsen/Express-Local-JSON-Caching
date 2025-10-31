@@ -1,0 +1,15 @@
+    # Ignore a specific folder
+    my_ignored_folder/
+
+    # Ignore all files with a specific extension
+    *.log
+
+    # Ignore a specific file
+    temp_file.txt
+
+    # Ignore a directory and its contents
+    node_modules/
+
+    # Exclude a specific file within an otherwise ignored directory (using negation)
+    !node_modules/package.json
+    package-lock.json
