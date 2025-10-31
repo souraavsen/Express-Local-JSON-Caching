@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Local JSON Cache Server is a lightweight, file-based caching solution designed for efficient data storage and retrieval. It supports key-value pair storage for multiple users, with unique keys such as user IDs. The server ensures easy access to cached data, automatic expiration using Time-to-Live (TTL), and persistence in JSON files. This project is ideal for applications needing quick, local storage without the complexity of a database.
+The Local JSON Cache Server is a file-based caching solution for data storage and retrieval. It's a way to access cached data, automatic expiration using Time-to-Live (TTL), and persistence in JSON files.
 
 ---
 
@@ -11,18 +11,9 @@ The Local JSON Cache Server is a lightweight, file-based caching solution design
 - **File-Based Storage**: Cache data is stored in user-specific JSON files, ensuring simplicity and persistence.
 - **Key-Value Pair Access**: Retrieve and manage data using simple key-value pairs for each user.
 - **Time-to-Live (TTL) Support**: Automatically expires stale data based on configurable TTL values.
-- **Error Handling**: Handles empty or missing files gracefully, ensuring a seamless user experience.
 - **Dynamic Cache Loading**: Reads all cached files from a specified folder for initialization or reporting.
-- **Scalable Design**: Easily extendable to support additional functionality or integrations.
-
+- **Automatic Clearance**: Stored data will be cleared automatically if the TTL is expired.
 ---
-
-## How It Works
-
-1. **Data Storage**: Each user's cache is stored in a separate JSON file under the `cache/` directory.
-2. **Data Retrieval**: Cached data can be retrieved by user ID and key, with checks for expiration.
-3. **Expiration**: A TTL mechanism automatically removes stale entries from the cache.
-4. **Initialization**: On server startup, all existing cache files are loaded for quick access.
 
 ## Usage
 

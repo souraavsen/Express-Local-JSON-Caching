@@ -12,4 +12,3 @@
 
     # Exclude a specific file within an otherwise ignored directory (using negation)
     !node_modules/package.json
-    package-lock.json
