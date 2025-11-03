@@ -8,7 +8,7 @@ const {
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.status(200).json({ message: "🚀 Server is running 🚀" });
+  res.status(200).json({ message: "🔥 Server is running 🔥" });
 });
 
 router.post("/:userId/:key", (req, res) => {
